@@ -11,8 +11,12 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "srcery"
+    colorscheme = "spacevim"  
     colorscheme_bg = "dark"
+    filemanager = "nerdtree"
+    enable_filetree_gitstatus = true
+    enable_filetree_gitstatus = true
+    filetree_direction = "left"
 auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
@@ -93,3 +97,7 @@ name = "lang#javascript"
 [[custom_plugins]]
 name = "dracula/vim"
 merged = 0
+
+[[layers]]
+    name = "incsearch"
+
